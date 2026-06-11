@@ -1,33 +1,33 @@
 # 🧪 A/B Testing — Analyse de taux de conversion
 
-## 📌 Description
+## Description
 Analyse statistique complète d'un test A/B comparant deux versions 
 d'une landing page (old_page vs new_page) sur un dataset de 294 478 
 utilisateurs afin de déterminer laquelle convertit le mieux.
 
-## ❓ Problématique
+## Problématique
 Quelle version d'une landing page convertit le mieux les utilisateurs ?
 La différence observée est-elle réelle ou due au hasard ?
 
-## 🗂️ Dataset
+## Dataset
 - 294 478 utilisateurs
 - Source : (https://www.kaggle.com/datasets/zhangluyuan/ab-testing)
 - Colonnes : user_id, timestamp, group, landing_page, converted
 
-## 🛠️ Technologies
+## Technologies
 - Python
 - Pandas
 - Matplotlib / Seaborn
 - Scipy / Numpy
 
-## ⚙️ Installation
+## Installation
 # Cloner le projet
 git clone https://github.com/bazbamba8-maker/ab-testing
 
 # Installer les dépendances
 pip install -r requirements.txt
 
-## 📊 Résultats
+## Résultats
 
 - taux de conversion_control (old_page) : 12.04%
 - taux de conversion_treatment (new_page) : 11.88%
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 - P-value : 0.1897
 - Conclusion : différence non significative (p > 0.05)
 
-## 💡 Recommandation
+## Recommandation
 La new_page ne performe pas mieux que l'old_page.
 Le vrai enjeu identifié : 88% des utilisateurs ne convertissent pas,
 quelle que soit la page. Des données supplémentaires (temps passé,
