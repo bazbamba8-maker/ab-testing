@@ -1,4 +1,4 @@
-# 🧪 A/B Testing — Analyse de taux de conversion
+#      A/B Testing — Analyse de taux de conversion
 
 ## Description
 Analyse statistique complète d'un test A/B comparant deux versions 
@@ -42,5 +42,5 @@ quelle que soit la page. Des données supplémentaires (temps passé,
 scroll depth, device, source de trafic) seraient nécessaires pour
 diagnostiquer et résoudre ce problème de conversion.
 
-## 🔗 Auteur
+##  Auteur
 Bamba Baz — github.com/bazbamba8-maker
